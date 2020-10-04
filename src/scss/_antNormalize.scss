@@ -1,0 +1,84 @@
+.ant-notification-notice-message {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+.ant-notification-notice {
+  background: rgba(#000, 0.7) !important;
+  color: #fff;
+  border-radius: 6px;
+}
+.ant-notification-close-x {
+  svg {
+    fill: #fff !important;
+  }
+}
+.ant-form-item-explain {
+  font-size: 11px;
+}
+.ant-form-item-label {
+  font-size: 12px !important;
+  font-weight: 700;
+  padding: 0 !important;
+  label {
+    color: #555 !important;
+    font-size: 12px !important;
+  }
+}
+
+.full {
+  display: block;
+  .ant-form-item-control {
+    max-width: 100% !important;
+  }
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+.ant-modal-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.ant-modal-body {
+  padding: 10px 24px 20px 24px;
+}
+.ant-modal-footer {
+  border-top-width: 0;
+}
+
+.ant-table {
+  border-radius: 6px;
+  border: 0.5px solid rgba(#000, 0.12);
+  overflow: hidden;
+}
+.ant-table-content {
+  thead {
+    tr {
+      th {
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #555;
+      }
+    }
+  }
+}
+
+.ant-picker-time-panel-column {
+  overflow-y: auto;
+}
+
+.ant-layout.ant-layout-has-sider {
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.ck-editor__editable {
+  &:not(.ck-editor__nested-editable) {
+    min-height: 250px !important;
+    max-height: 70vh !important;
+    background: #fff;
+    border: 1px solid #ddd !important;
+  }
+}

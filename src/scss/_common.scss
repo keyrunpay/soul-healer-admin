@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+
+.hgap {
+  display: inline-block;
+  width: 10px;
+}
+
+.gap {
+  height: 10px;
+}
+
+.flex {
+  display: flex;
+  &.jcsb {
+    justify-content: space-between;
+  }
+  &.ci {
+    align-items: center;
+  }
+  &.jcr {
+    justify-content: flex-end;
+  }
+  &.jcc {
+    justify-content: center;
+  }
+}
+
+.card {
+  box-shadow: var(--shadow);
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 7px 0;
+}
+.form-field-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.text {
+  &.red {
+    color: red;
+  }
+  &.bold {
+    font-weight: 700;
+  }
+  &.normal {
+    font-weight: 500;
+  }
+  &.center {
+    text-align: center;
+  }
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 700;
+}

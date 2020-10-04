@@ -1,0 +1,12 @@
+.filter-type {
+  display: inline-block;
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 100px;
+  font-size: 11px;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+  span {
+    font-weight: 700;
+  }
+}
